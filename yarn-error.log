@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/williamk/.nvm/versions/node/v11.10.0/bin/node /Users/williamk/.nvm/versions/node/v11.10.0/bin/yarn add @babel/core @babe/cli @babel/node @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/plugin-syntax-dynamic-import @babel/plugin-syntax-import-meta @babel/plugin-transform-async-to-generator @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react @babel/register @babel/runtime babel-eslint babel-jest babel-loader babel-core@7.0.0-bridge.0
+
+PATH: 
+  /usr/local/opt/python@2/libexec/bin:/Users/williamk/.composer/vendor/bin:/Users/williamk/.nvm/versions/node/v11.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babe%2fcli: Not found
+      at Request.params.callback [as _callback] (/Users/williamk/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/Users/williamk/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/Users/williamk/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/Users/williamk/.nvm/versions/node/v11.10.0/lib/node_modules/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "React-boiler-plate",
+    "version": "1.0.0",
+    "description": "React boiler plate",
+    "main": "index.js",
+    "repository": "https://github.com/willikay11/React-boiler-plate.git",
+    "author": "William Kamau",
+    "license": "MIT",
+    "devDependencies": {
+      "clean-webpack-plugin": "^3.0.0",
+      "file-loader": "^4.2.0",
+      "html-webpack-plugin": "^3.2.0",
+      "img-loader": "^3.0.1",
+      "url-loader": "^2.2.0",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10",
+      "webpack-dev-server": "^3.9.0",
+      "webpack-merge": "^4.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
