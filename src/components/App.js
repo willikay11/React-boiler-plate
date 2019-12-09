@@ -36,16 +36,10 @@ const Link = styled.a`
 
 const App = () => (
     <Container>
-        <Wrapper>
-            <Title>
-                <span role="img" aria-label="Bolt">
-                    ⚡
-                </span>{' '}
-                React Bolt
-            </Title>
-            <Paragraph>The most simple and robust React boilerplate.</Paragraph>
+        <Wrapper>>
+            <Paragraph>React boilerplate.</Paragraph>
             <Paragraph>
-                Read the article{' '}
+                This template is an adaptation of React bolt. Read the article{' '}
                 <Link href="https://medium.freecodecamp.org/a-complete-react-boilerplate-tutorial-from-zero-to-hero-20023e086c4a" target="_blank">
                     here.
                 </Link>
